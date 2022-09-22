@@ -44,7 +44,7 @@ int main(int argc, char* argv[]) {
 #ifdef VERSION_POCKETGO
 	RWops = SDL_RWFromConstMem(png_logo_pocketgo, sizeof(png_logo_pocketgo));
 #elif VERSION_POWKIDDY
-	RWops = SDL_RWFromConstMem(png_logo_powkiddy, sizeof(png_logo_powkiddy));
+	RWops = SDL_RWFromConstMem(png_logo_birthday, sizeof(png_logo_birthday));
 #else
 	RWops = SDL_RWFromConstMem(png_logo_bittboy, sizeof(png_logo_bittboy));
 #endif
